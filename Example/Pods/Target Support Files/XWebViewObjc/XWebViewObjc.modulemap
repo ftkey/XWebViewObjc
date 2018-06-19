@@ -1,0 +1,6 @@
+framework module XWebViewObjc {
+  umbrella header "XWebViewObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

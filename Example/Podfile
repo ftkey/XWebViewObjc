@@ -1,0 +1,13 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'XWebViewObjc_Example' do
+  pod 'XWebViewObjc', :path => '../'
+  pod 'XWebViewObjc/HttpServer', :path => '../'
+
+  target 'XWebViewObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

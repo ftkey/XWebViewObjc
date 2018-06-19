@@ -1,0 +1,21 @@
+PODS:
+  - XWebViewObjc (0.12.1):
+    - XWebViewObjc/Core (= 0.12.1)
+  - XWebViewObjc/Core (0.12.1)
+  - XWebViewObjc/HttpServer (0.12.1):
+    - XWebViewObjc/Core
+
+DEPENDENCIES:
+  - XWebViewObjc (from `../`)
+  - XWebViewObjc/HttpServer (from `../`)
+
+EXTERNAL SOURCES:
+  XWebViewObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XWebViewObjc: de25e9e78df591e376f2a5fe5246faf2e988bd78
+
+PODFILE CHECKSUM: 33311471164573d4ceeb7ffe303e15b85e156a88
+
+COCOAPODS: 1.5.3
